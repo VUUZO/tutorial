@@ -6,4 +6,22 @@
 
 body {
   font-family: system-ui;
+  background-color: #121212;
+  color: #FBFBFB;
+}
+
+header {
+  max-width: 920px;
+  padding: 5rem 1rem;
+  margin: 0 auto;
+
+  h1 {
+    padding-bottom: .5rem;
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: #ABABAB;
+    font-size: 1.5rem;
+  }
 }
