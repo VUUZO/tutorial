@@ -31,6 +31,8 @@ header {
   max-width: var(--width);
   padding: 5rem 1rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 
   h1 {
     padding-bottom: .5rem;
@@ -40,6 +42,13 @@ header {
   p {
     color: var(--c-secondary);
     font-size: 1.5rem;
+  }
+
+  #clock {
+    display: inline-block;
+    margin-left: auto;
+    line-height: 2;
+    color: var(--c-tertiary);
   }
 }
 
