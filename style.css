@@ -25,3 +25,39 @@ header {
     font-size: 1.5rem;
   }
 }
+
+footer {
+  max-width: 920px;
+  padding: 5rem 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  div:first-of-type {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+    p {
+      color: #505050;
+    }
+  }
+  
+  h3 {
+    margin-bottom: 8px;
+  }
+
+  ul {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: #ABABAB;
+      display: block;
+      line-height: 1.5;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
